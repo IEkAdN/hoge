@@ -52,9 +52,9 @@ In order to run BactSNP with default settings,
 
 Options:  
 
-```-h | --help```  
++ `-h | --help`  
 
-   Show help message.    
+    Show help message.    
 
 ```-v | --version```  
 
