@@ -48,7 +48,7 @@ rpm -ivh /some/where/bactsnp-x.x.x.*.rpm
 ## Usage
 In order to run BactSNP with default settings, execute the following command:  
 
-    ```bactsnp -q <fastq list> -r <reference> -o <output directory> [options]```
+    ```bactsnp -q [fastq_list] -r [reference.fasta] -o <output directory>```
 
 Options:  
 
