@@ -4,7 +4,7 @@
 
 BactSNP is currently available only on Linux. Users can download BactSNP as a binary package, a source package, or source RPM. The binary package only needs to be installed without compiling, but they are not available for all platforms. The source package needs to be compiled and installed. The source RPM needs to be installed using RPM.
 
-### Required dependencies  
+### required dependencies  
 
 - Perl (5.10.1)  
 - Bash (4.1.2)  
@@ -21,7 +21,7 @@ BactSNP also depends on the following several tools, but they are bundled in the
 - ART (2.5.8)    
 - Picard (2.4.1)  
 
-### Binary package  
+### binary package  
 
 ```
 tar xf bactsnp-x.x.x.linux64.tgz  
@@ -29,7 +29,7 @@ cd bactsnp-x.x.x.linux64
 make install  
 ```
 
-### Source package  
+### source package  
 
 ```
 tar xf bactsnp-x.x.x.src.tgz  
@@ -46,9 +46,9 @@ rpm -ivh /some/where/bactsnp-x.x.x.*.rpm
 ```
 
 ## Usage
-In order to run BactSNP with default settings,  
+In order to run BactSNP with default settings, execute the following command:  
 
-```bactsnp -q <fastq list> -r <reference> -o <output directory> [options]```
+    ```bactsnp -q <fastq list> -r <reference> -o <output directory> [options]```
 
 Options:  
 
