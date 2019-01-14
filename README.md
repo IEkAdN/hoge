@@ -2,6 +2,8 @@
 
 ## Installation
 
+BactSNP is currently available only on Linux. Users can download BactSNP as a binary package, a source package, or source RPM. The binary package only needs to be installed without compiling, but they are not available for all platforms. The source package needs to be compiled and installed. The source RPM needs to be installed using RPM.
+
 ### Required dependencies  
 
 - Perl (5.10.1)  
@@ -11,13 +13,37 @@
 - MUMmer (3.23)  
 
 Listed in parenthesis are the versions used in our test.  
-BactSNP also depends on the following several tools, but they are bundled in the package:  
+BactSNP also depends on the following several tools, but they are bundled in the packages:  
   
 - BWA (0.7.15)  
 - Platanus (1.2.4)  
 - Platanus_trim (1.0.7)  
 - ART (2.5.8)    
 - Picard (2.4.1)  
+
+### Binary package  
+
+```
+tar xf bactsnp-x.x.x.linux64.tgz  
+cd bactsnp-x.x.x.linux64  
+make install  
+```
+
+### Source package  
+
+```
+tar xf bactsnp-x.x.x.src.tgz  
+cd bactsnp-x.x.x.src  
+make
+make install  
+```
+
+### source RPM
+
+```
+rpmbuild --rebuild bactsnp-x.x.x.src.rpm  
+rpm -ivh /some/where/bactsnp-x.x.x.*.rpm  
+```
 
 ## Usage
 In order to run BactSNP with default settings,  
@@ -27,15 +53,19 @@ In order to run BactSNP with default settings,
 Options:  
 
 ```-h | --help```  
+
 Show help message.    
 
 ```-v | --version```  
+
 Show version information.  
 
 ```-q | --fastq_list FILE (either or both of -q and -a is required)```  
+
 TSV file to specify the name and the pair of read-data files (FASTQ) of each isolate. When you have multiple FASTQ files for each strand, concatenate them into one file. Users can input gzipped FASTQ files, but their extensions need to be '.gz' in that case. See others/fq_list_format.  
 
 ```-r | --reference FILE```  
+
 FASTA file of the reference sequence.  
 
 ```-o | --out_dir STR (required)```  
