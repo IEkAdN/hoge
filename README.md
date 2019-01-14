@@ -62,7 +62,7 @@ Options:
 
 + `-q | --fastq_list FILE (either or both of -q and -a is required)`  
 
-    TSV file to specify the name and the pair of read-data files (FASTQ) of each isolate. When you have multiple FASTQ files for each strand, concatenate them into one file. Users can input gzipped FASTQ files, but their extensions need to be '.gz' in that case. See others/fq_list_format.  
+    TSV file to specify the name and the pair of read-data files (FASTQ) of each isolate. When you have multiple FASTQ files for each strand, concatenate them into one file. Users can input gzipped FASTQ files, but their extensions need to be '.gz' in that case. See `others/fq_list_format`.  
 
 + `-r | --reference FILE`  
 
@@ -82,7 +82,7 @@ Options:
 
 + `-a | --fasta_list FILE (either or both of -q and -a is required)`  
 
-    TSV file to specify the name and the assembly-data file (FASTA) of each isolate. Use this option when you do not have read data for some isolates. BactSNP simulates sequence reads from the input assembly and use them in the same way as the real sequence data. See others/fa_list_format.  
+    TSV file to specify the name and the assembly-data file (FASTA) of each isolate. Use this option when you do not have read data for some isolates. BactSNP simulates sequence reads from the input assembly and use them in the same way as the real sequence data. See `others/fa_list_format`.  
 
 + `--reference_strain STR`  
 
@@ -90,7 +90,7 @@ Options:
 
 + `--mask_region FILE`  
 
-    TSV file to specify the region where you want to avoid calling SNPs. See others/input_region_format.  
+    TSV file to specify the region where you want to avoid calling SNPs. See `others/input_region_format`.  
 
 + `--dist_from_indel INT (default: 5)`  
 
