@@ -169,4 +169,4 @@ Options:
         
 + `tmp/`  
 
-    Directory including intermediate files. This directory is output only when you specify `i--no_clean`.
+    Directory including intermediate files. This directory is output only when you specify `--no_clean`.
