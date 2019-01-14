@@ -54,7 +54,7 @@ Options:
 
 ```-h | --help```  
 
-    Show help message.    
+   Show help message.    
 
 ```-v | --version```  
 
