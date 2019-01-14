@@ -2,7 +2,7 @@
 
 ## Installation
 
-BactSNP is currently available only on Linux. Users can download BactSNP as a binary package, a source package, or source RPM. The binary package only needs to be installed without compiling, but they are not available for all platforms. The source package needs to be compiled and installed. The source RPM needs to be installed using RPM.
+BactSNP is currently available only on Linux. Users can download BactSNP as a binary package, a source package, or source RPM. The binary package only needs to be installed without compiling, but they are not available for all platforms. The source package needs to be compiled and installed. The source RPM needs to be installed using RPM. All packages are available at https://github.com/IEkAdN/BactSNP/releases.
 
 ### required dependencies  
 
@@ -44,7 +44,7 @@ make install
 
 ```
 wget
-rpmbuild --rebuild bactsnp-x.x.x.src.rpm  
+rpmbuild --rebuild bactsnp-x.x.x-x.xxx.src.rpm  
 rpm -ivh /some/where/bactsnp-x.x.x.*.rpm  
 ```
 
