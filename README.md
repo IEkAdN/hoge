@@ -24,6 +24,7 @@ BactSNP also depends on the following several tools, but they are bundled in the
 ### binary package  
 
 ```
+wget 
 tar xf bactsnp-x.x.x.linux64.tgz  
 cd bactsnp-x.x.x.linux64  
 make install  
@@ -32,6 +33,7 @@ make install
 ### source package  
 
 ```
+wget
 tar xf bactsnp-x.x.x.src.tgz  
 cd bactsnp-x.x.x.src  
 make
@@ -41,6 +43,7 @@ make install
 ### source RPM
 
 ```
+wget
 rpmbuild --rebuild bactsnp-x.x.x.src.rpm  
 rpm -ivh /some/where/bactsnp-x.x.x.*.rpm  
 ```
