@@ -44,6 +44,7 @@ make install
 
 ```
 wget
+gunzip bactsnp-x.x.x-x.xxx.src.rpm.gz
 rpmbuild --rebuild bactsnp-x.x.x-x.xxx.src.rpm  
 rpm -ivh /some/where/bactsnp-x.x.x.*.rpm  
 ```
