@@ -170,3 +170,6 @@ Options:
 + `tmp/`  
 
     Directory including intermediate files. This directory is output only when you specify `--no_clean`.
+    
+## Source codes for benchmarks  
+The source codes of our programs used in the benchmarks in our paper is availabe at https://github.com/IEkAdN/BactSNP/tree/master/benchmark. The C++ programs can be compiled by `make` command.
