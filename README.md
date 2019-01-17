@@ -172,4 +172,4 @@ Options:
     Directory including intermediate files. This directory is output only when you specify `--no_clean`.
     
 ## Programs used in benchmarks  
-Our programs used in the benchmarks in our paper is availabe at https://github.com/IEkAdN/BactSNP/tree/master/benchmark. The C++ programs can be compiled by `make` command.
+Our programs used in the benchmarks in our paper is availabe at https://github.com/IEkAdN/BactSNP/tree/master/benchmark. The C++ programs can be compiled by `make` command. Simulated data in the benchmarks is available at http://platanus.bio.titech.ac.jp/bactsnp.
